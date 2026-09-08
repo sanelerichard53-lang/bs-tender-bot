@@ -16,3 +16,9 @@ jobs:
         env:
           NEO_USER: ${{ secrets.NEO_USER }}
           NEO_PASS: ${{ secrets.NEO_PASS }}
+      - run: |
+          git config --global user.name "BS Bot"
+          git config --global user.email "bot@bscompanies.co.za"
+          git add tenders.json tenders.html
+          git commit -m "Growing database - $(date)" || echo "No changes"
+          git push
