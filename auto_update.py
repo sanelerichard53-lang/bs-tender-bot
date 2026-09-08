@@ -1,26 +1,56 @@
 import requests, json, os
 from datetime import datetime, timedelta
-print("BS BOT 150 HIDDEN")
-t=[]
-depts=[("KZN Health","construction"),("Victoria Mxenge Hospital","cleaning"),("Victoria Hospital","service"),("Nkonjeni Hospital","construction"),("Public Works","construction"),("Education GP","catering"),("COJ","security"),("Eskom","electrical"),("SANRAL","construction"),("Transport","service"),("Health Limpopo","cleaning"),("Cape Town","security"),("Water & Sanitation","plumbing"),("SASSA","security"),("PRASA","construction"),("Transnet","service"),("Home Affairs","cleaning"),("SAPO","service"),("eThekwini","construction"),("Agriculture","catering"),("UP","cleaning"),("SARS","security"),("DENEL","electrical"),("COGTA","construction"),("Durban Municipality","cleaning"),("Johannesburg Roads","construction"),("Tshwane","electrical"),("Mangaung","service"),("Buffalo City","catering"),("Nelson Mandela Bay","security"),("Dept of Labour","cleaning"),("Correctional Services","security"),("Police SAPS","service"),("Defence","construction"),("Justice","catering")]
-titles=["Replace Motor/Hoist","Cleaning gutters","Fire extinguisher service","Storage container clinic","Stationery supply","Security 24 months","Catering hospital","Electrical maintenance","Boundary wall construction","Cleaning material","Plumbing services","ICT equipment","Aircon service","Landscaping","Pest control","Uniform supply","Building renovation","Road marking","Fuel supply","Waste removal","Laundry services","Medical equipment","Fencing installation","Painting offices","Furniture supply","CCTV installation","Groceries supply","Borehole drilling","PPE supply","Vehicle maintenance","Grass supply","IT support","Printing paper","Laptops supply","Protective clothing","Building material","Electrical cables","Water tanks","Office chairs","Aircons supply","Diesel supply","Toilet paper","Mops supply","Bins supply","Curtains","Doors supply","Windows supply","Tiles supply","Cement supply","Bricks supply","Sanitary bins","Deep cleaning","Kitchen equipment","Generator service","Lift maintenance","Garden services","Car wash bay","Tiling work","Roof repair","Gate installation","Alarm system","Access control","Solar installation","Waterproofing","Carpentry work","Welding services"]
+
+print("BS BOT - COMBINED GROWING DATABASE")
+
+# 1. LOAD OLD - THIS MAKES IT GROW
+old_t = []
+if os.path.exists('tenders.json'):
+    try:
+        with open('tenders.json','r',encoding='utf-8') as f:
+            old_t = json.load(f)
+        print(f"OLD FOUND: {len(old_t)}")
+    except:
+        old_t = []
+
+t = old_t  # START WITH OLD
+
+# 2. GENERATE 150 NEW DAILY
+depts=[("KZN Health","construction"),("Victoria Mxenge Hospital","cleaning"),("Dept of Public Works","security"),("Dept of Education","catering"),("City of Joburg","electrical")]
+titles=["Replace Motor/Hoist","Cleaning gutters","Security services 24 months","Catering for schools","Electrical maintenance","Plumbing repairs","Supply of PPE","Road maintenance","Building renovation","IT services"]
+
 base=datetime.now()
 for i in range(150):
   d,c=depts[i%len(depts)]
   ttl=titles[i%len(titles)]
   cl=(base+timedelta(days=5+i%25)).strftime("%Y-%m-%d")
-  t.append({"title":f"{ttl} - {d}","dept":d,"number":f"BS{i+1000:04d}/26/27","category":c,"type":c,"closing":cl,"value":f"R{(i+2)*175000:,}","location":d})
+  new_title=f"{ttl} {base.strftime('%Y%m%d')}-{i} - {d}"
+  t.append({"title":new_title,"dept":d,"number":f"REF-{base.strftime('%Y%m%d')}-{i}","closing":cl,"category":c})
 
+# 3. REMOVE DUPLICATES
+seen=set()
+unique=[]
+for x in t:
+  k=x.get('title')
+  if k not in seen:
+    seen.add(k)
+    unique.append(x)
+t=unique
+print(f"TOTAL NOW: {len(t)}")
+
+# 4. SAVE JSON + HTML COMBINED
 open('tenders.json','w',encoding='utf-8').write(json.dumps(t,indent=2))
-# HIDDEN SEARCH-ONLY HTML - NO TOTAL SHOWN
+
 json_data=json.dumps(t)
-html=f"""<!DOCTYPE html><html><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>BS Tenders Search</title><style>body{{font-family:Arial;background:#f4f4f4;margin:0}}.nav{{background:#003366;color:white;padding:12px;text-align:center;position:fixed;top:0;width:100%;z-index:10}}.nav a{{color:white;margin:0 8px;text-decoration:none;font-weight:bold}}.container{{padding:70px 12px 20px;max-width:700px;margin:auto}}.header{{background:linear-gradient(135deg,#003366,#0055a5);color:white;padding:22px;border-radius:12px;text-align:center}}input{{width:100%;padding:15px;font-size:16px;border:2px solid #003366;border-radius:10px;box-sizing:border-box;margin-top:15px}} .card{{background:white;border-left:4px solid #003366;padding:12px;border-radius:8px;margin-bottom:12px;box-shadow:0 2px 4px rgba(0,0,0,0.05)}} </style></head><body><div class='nav'><a href='/'>Home</a><a href='/tenders.html'>Tenders</a></div><div class='container'><div class='header'><h2>🔍 BS TENDER SEARCH</h2><p>Find your tender below</p><p style='font-size:11px;opacity:0.8'>Type cleaning, security, construction, etc.</p></div><input id='q' placeholder='🔍 Type to search... e.g. cleaning, security, KZN' onkeyup='search()'><div id='info' style='text-align:center;padding:15px;color:#666;font-size:14px'>Start typing to see tenders...</div><div id='list' style='margin-top:15px'></div></div><script>const tenders={json_data}; function search(){{let s=document.getElementById('q').value.toLowerCase();let l=document.getElementById('list');let info=document.getElementById('info');if(s.length<2){{l.innerHTML='';info.innerHTML='Start typing to see tenders...';return;}}let f=tenders.filter(x=> (x.title+x.dept+x.category+x.number).toLowerCase().includes(s));if(f.length==0){{info.innerHTML='❌ No results for '+s; l.innerHTML='';return;}}info.innerHTML='✅ Found '+f.length+' results';let h='';f.slice(0,30).forEach(x=>{{h+=`<div class='card'><b style='color:#003366'>${{x.title}}</b><br><span style='font-size:13px'>🏢 ${{x.dept}} | ${{x.number}}</span><br><span style='font-size:13px'>🏷️ ${{x.category}} | ⏰ ${{x.closing}}</span><br><div style='display:flex;gap:8px;margin-top:10px'><a href='https://wa.me/27787417326?text=Hi%20BS%20LITE%20R50%20${{encodeURIComponent(x.title)}}' style='flex:1;padding:10px;text-align:center;border:2px solid #003366;color:#003366;text-decoration:none;font-weight:bold;border-radius:8px;font-size:12px'>🔓 LITE R50</a><a href='https://wa.me/27787417326?text=Hi%20BS%20PRO%20R150%20${{encodeURIComponent(x.title)}}' style='flex:1;padding:10px;text-align:center;background:#ff6600;color:white;text-decoration:none;font-weight:bold;border-radius:8px;font-size:12px'>🔒 PRO R150</a></div></div>`}});l.innerHTML=h;}}</script></body></html>"""
+html=f"""<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Search {len(t)} Tenders</title></head><body style="font-family:Arial;padding:15px;background:#f4f4f4"><h2>🔍 Search {len(t)} Tenders</h2><input id="s" placeholder="Type cleaning, construction..." style="width:100%;padding:14px;border:2px solid #003366;border-radius:8px"><div id="r" style="margin-top:15px"></div><script>let data={json_data};document.getElementById('s').onkeyup=function(){{let q=this.value.toLowerCase();let f=data.filter(x=>JSON.stringify(x).toLowerCase().includes(q));document.getElementById('r').innerHTML=q.length<2?'Type to search':f.length+' found<br>'+f.slice(0,50).map(x=>'<div style=background:white;padding:12px;margin:8px 0;border-left:4px solid #003366;border-radius:8px><b>'+x.title+'</b><br>'+x.dept+' | '+x.number+' | '+x.closing+'<br><a href=https://wa.me/27787417326?text=PRO%20'+encodeURIComponent(x.title)+' style=background:#ff6600;color:white;padding:8px 12px;border-radius:6px;text-decoration:none;display:inline-block;margin-top:6px>🔒 PRO R150 Unlock</a></div>').join('')}}</script></body></html>"""
 open('tenders.html','w',encoding='utf-8').write(html)
+
+# 5. UPLOAD TO NEOCITIES
 U=os.getenv('NEO_USER');P=os.getenv('NEO_PASS')
 for fn in ['tenders.json','tenders.html']:
   try:
-    res=requests.post('https://neocities.org/api/upload',auth=(U,P),files={fn:open(fn,'rb')})
-    print(fn, res.text[:200])
+    r=requests.post('https://neocities.org/api/upload',auth=(U,P),files={fn:open(fn,'rb')})
+    print(fn, r.text[:150])
   except Exception as e:
     print(e)
-print("DONE 150 HIDDEN")
+print(f"✅ DONE - TOTAL {len(t)} TENDERS SAVED - GROWING DAILY!")
