@@ -64798,5 +64798,1205 @@
     "category": "IT",
     "closing": "2026-11-29",
     "date": "2026-10-31"
+  },
+  {
+    "id": 8101,
+    "title": "Replace Motor/Hoist - Ref 8100",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-06",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8102,
+    "title": "Cleaning gutters - Ref 8102",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-07",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8103,
+    "title": "Supply valves - Ref 8104",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-08",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8104,
+    "title": "Electrical maintenance - Ref 8106",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-09",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8105,
+    "title": "Security services - Ref 8108",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-10",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8106,
+    "title": "IT Support - Ref 8110",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-11",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8107,
+    "title": "Construction works - Ref 8112",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-12",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8108,
+    "title": "Replace Motor/Hoist - Ref 8114",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-13",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8109,
+    "title": "Cleaning gutters - Ref 8116",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-14",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8110,
+    "title": "Supply valves - Ref 8118",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-15",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8111,
+    "title": "Electrical maintenance - Ref 8120",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-16",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8112,
+    "title": "Security services - Ref 8122",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-17",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8113,
+    "title": "IT Support - Ref 8124",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-18",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8114,
+    "title": "Construction works - Ref 8126",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-19",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8115,
+    "title": "Replace Motor/Hoist - Ref 8128",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-20",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8116,
+    "title": "Cleaning gutters - Ref 8130",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-21",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8117,
+    "title": "Supply valves - Ref 8132",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-22",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8118,
+    "title": "Electrical maintenance - Ref 8134",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-23",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8119,
+    "title": "Security services - Ref 8136",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-24",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8120,
+    "title": "IT Support - Ref 8138",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-25",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8121,
+    "title": "Construction works - Ref 8140",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-26",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8122,
+    "title": "Replace Motor/Hoist - Ref 8142",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-27",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8123,
+    "title": "Cleaning gutters - Ref 8144",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-28",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8124,
+    "title": "Supply valves - Ref 8146",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-29",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8125,
+    "title": "Electrical maintenance - Ref 8148",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-30",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8126,
+    "title": "Security services - Ref 8150",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-06",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8127,
+    "title": "IT Support - Ref 8152",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-07",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8128,
+    "title": "Construction works - Ref 8154",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-08",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8129,
+    "title": "Replace Motor/Hoist - Ref 8156",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-09",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8130,
+    "title": "Cleaning gutters - Ref 8158",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-10",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8131,
+    "title": "Supply valves - Ref 8160",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-11",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8132,
+    "title": "Electrical maintenance - Ref 8162",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-12",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8133,
+    "title": "Security services - Ref 8164",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-13",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8134,
+    "title": "IT Support - Ref 8166",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-14",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8135,
+    "title": "Construction works - Ref 8168",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-15",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8136,
+    "title": "Replace Motor/Hoist - Ref 8170",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-16",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8137,
+    "title": "Cleaning gutters - Ref 8172",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-17",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8138,
+    "title": "Supply valves - Ref 8174",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-18",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8139,
+    "title": "Electrical maintenance - Ref 8176",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-19",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8140,
+    "title": "Security services - Ref 8178",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-20",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8141,
+    "title": "IT Support - Ref 8180",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-21",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8142,
+    "title": "Construction works - Ref 8182",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-22",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8143,
+    "title": "Replace Motor/Hoist - Ref 8184",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-23",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8144,
+    "title": "Cleaning gutters - Ref 8186",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-24",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8145,
+    "title": "Supply valves - Ref 8188",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-25",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8146,
+    "title": "Electrical maintenance - Ref 8190",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-26",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8147,
+    "title": "Security services - Ref 8192",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-27",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8148,
+    "title": "IT Support - Ref 8194",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-28",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8149,
+    "title": "Construction works - Ref 8196",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-29",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8150,
+    "title": "Replace Motor/Hoist - Ref 8198",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-30",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8151,
+    "title": "Cleaning gutters - Ref 8200",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-06",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8152,
+    "title": "Supply valves - Ref 8202",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-07",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8153,
+    "title": "Electrical maintenance - Ref 8204",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-08",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8154,
+    "title": "Security services - Ref 8206",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-09",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8155,
+    "title": "IT Support - Ref 8208",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-10",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8156,
+    "title": "Construction works - Ref 8210",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-11",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8157,
+    "title": "Replace Motor/Hoist - Ref 8212",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-12",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8158,
+    "title": "Cleaning gutters - Ref 8214",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-13",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8159,
+    "title": "Supply valves - Ref 8216",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-14",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8160,
+    "title": "Electrical maintenance - Ref 8218",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-15",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8161,
+    "title": "Security services - Ref 8220",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-16",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8162,
+    "title": "IT Support - Ref 8222",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-17",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8163,
+    "title": "Construction works - Ref 8224",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-18",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8164,
+    "title": "Replace Motor/Hoist - Ref 8226",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-19",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8165,
+    "title": "Cleaning gutters - Ref 8228",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-20",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8166,
+    "title": "Supply valves - Ref 8230",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-21",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8167,
+    "title": "Electrical maintenance - Ref 8232",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-22",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8168,
+    "title": "Security services - Ref 8234",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-23",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8169,
+    "title": "IT Support - Ref 8236",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-24",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8170,
+    "title": "Construction works - Ref 8238",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-25",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8171,
+    "title": "Replace Motor/Hoist - Ref 8240",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-26",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8172,
+    "title": "Cleaning gutters - Ref 8242",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-27",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8173,
+    "title": "Supply valves - Ref 8244",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-28",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8174,
+    "title": "Electrical maintenance - Ref 8246",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-29",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8175,
+    "title": "Security services - Ref 8248",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-30",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8176,
+    "title": "IT Support - Ref 8250",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-06",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8177,
+    "title": "Construction works - Ref 8252",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-07",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8178,
+    "title": "Replace Motor/Hoist - Ref 8254",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-08",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8179,
+    "title": "Cleaning gutters - Ref 8256",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-09",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8180,
+    "title": "Supply valves - Ref 8258",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-10",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8181,
+    "title": "Electrical maintenance - Ref 8260",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-11",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8182,
+    "title": "Security services - Ref 8262",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-12",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8183,
+    "title": "IT Support - Ref 8264",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-13",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8184,
+    "title": "Construction works - Ref 8266",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-14",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8185,
+    "title": "Replace Motor/Hoist - Ref 8268",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-15",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8186,
+    "title": "Cleaning gutters - Ref 8270",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-16",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8187,
+    "title": "Supply valves - Ref 8272",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-17",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8188,
+    "title": "Electrical maintenance - Ref 8274",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-18",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8189,
+    "title": "Security services - Ref 8276",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-19",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8190,
+    "title": "IT Support - Ref 8278",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-20",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8191,
+    "title": "Construction works - Ref 8280",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-21",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8192,
+    "title": "Replace Motor/Hoist - Ref 8282",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-22",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8193,
+    "title": "Cleaning gutters - Ref 8284",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-23",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8194,
+    "title": "Supply valves - Ref 8286",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-24",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8195,
+    "title": "Electrical maintenance - Ref 8288",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-25",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8196,
+    "title": "Security services - Ref 8290",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-26",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8197,
+    "title": "IT Support - Ref 8292",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-27",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8198,
+    "title": "Construction works - Ref 8294",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-28",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8199,
+    "title": "Replace Motor/Hoist - Ref 8296",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-29",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8200,
+    "title": "Cleaning gutters - Ref 8298",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-30",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8201,
+    "title": "Supply valves - Ref 8300",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-06",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8202,
+    "title": "Electrical maintenance - Ref 8302",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-07",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8203,
+    "title": "Security services - Ref 8304",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-08",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8204,
+    "title": "IT Support - Ref 8306",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-09",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8205,
+    "title": "Construction works - Ref 8308",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-10",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8206,
+    "title": "Replace Motor/Hoist - Ref 8310",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-11",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8207,
+    "title": "Cleaning gutters - Ref 8312",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-12",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8208,
+    "title": "Supply valves - Ref 8314",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-13",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8209,
+    "title": "Electrical maintenance - Ref 8316",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-14",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8210,
+    "title": "Security services - Ref 8318",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-15",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8211,
+    "title": "IT Support - Ref 8320",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-16",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8212,
+    "title": "Construction works - Ref 8322",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-17",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8213,
+    "title": "Replace Motor/Hoist - Ref 8324",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-18",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8214,
+    "title": "Cleaning gutters - Ref 8326",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-19",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8215,
+    "title": "Supply valves - Ref 8328",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-20",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8216,
+    "title": "Electrical maintenance - Ref 8330",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-21",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8217,
+    "title": "Security services - Ref 8332",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-22",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8218,
+    "title": "IT Support - Ref 8334",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-23",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8219,
+    "title": "Construction works - Ref 8336",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-24",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8220,
+    "title": "Replace Motor/Hoist - Ref 8338",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-25",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8221,
+    "title": "Cleaning gutters - Ref 8340",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-26",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8222,
+    "title": "Supply valves - Ref 8342",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-27",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8223,
+    "title": "Electrical maintenance - Ref 8344",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-28",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8224,
+    "title": "Security services - Ref 8346",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-29",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8225,
+    "title": "IT Support - Ref 8348",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-30",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8226,
+    "title": "Construction works - Ref 8350",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-06",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8227,
+    "title": "Replace Motor/Hoist - Ref 8352",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-07",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8228,
+    "title": "Cleaning gutters - Ref 8354",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-08",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8229,
+    "title": "Supply valves - Ref 8356",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-09",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8230,
+    "title": "Electrical maintenance - Ref 8358",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-10",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8231,
+    "title": "Security services - Ref 8360",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-11",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8232,
+    "title": "IT Support - Ref 8362",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-12",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8233,
+    "title": "Construction works - Ref 8364",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-13",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8234,
+    "title": "Replace Motor/Hoist - Ref 8366",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-14",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8235,
+    "title": "Cleaning gutters - Ref 8368",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-15",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8236,
+    "title": "Supply valves - Ref 8370",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-16",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8237,
+    "title": "Electrical maintenance - Ref 8372",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-17",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8238,
+    "title": "Security services - Ref 8374",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-18",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8239,
+    "title": "IT Support - Ref 8376",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-19",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8240,
+    "title": "Construction works - Ref 8378",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-20",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8241,
+    "title": "Replace Motor/Hoist - Ref 8380",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-21",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8242,
+    "title": "Cleaning gutters - Ref 8382",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-22",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8243,
+    "title": "Supply valves - Ref 8384",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-23",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8244,
+    "title": "Electrical maintenance - Ref 8386",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-24",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8245,
+    "title": "Security services - Ref 8388",
+    "dept": "KZN Health",
+    "category": "construction",
+    "closing": "2026-11-25",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8246,
+    "title": "IT Support - Ref 8390",
+    "dept": "Victory",
+    "category": "cleaning",
+    "closing": "2026-11-26",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8247,
+    "title": "Construction works - Ref 8392",
+    "dept": "PRASA",
+    "category": "electrical",
+    "closing": "2026-11-27",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8248,
+    "title": "Replace Motor/Hoist - Ref 8394",
+    "dept": "Eskom",
+    "category": "supply",
+    "closing": "2026-11-28",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8249,
+    "title": "Cleaning gutters - Ref 8396",
+    "dept": "DWS",
+    "category": "security",
+    "closing": "2026-11-29",
+    "date": "2026-11-01"
+  },
+  {
+    "id": 8250,
+    "title": "Supply valves - Ref 8398",
+    "dept": "SANRAL",
+    "category": "IT",
+    "closing": "2026-11-30",
+    "date": "2026-11-01"
   }
 ]
